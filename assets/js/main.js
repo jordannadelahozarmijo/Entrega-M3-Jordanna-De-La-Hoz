@@ -1,7 +1,13 @@
+// 
+//  En este archivo se encuentran las funciones que permiten al carro:
+//  - Almacenar productos
+//  - Agregar productos al carro
+//  - Calcular la compra total
+//  - Mostrar detalles de la compra
+//  - Finalizar compra
 
 
-
-/*----------Clase que contiene a los productos----------*/
+/*---------- Clase que contiene a los productos ----------*/
 
 class Productos {
     nombre = '';
@@ -15,7 +21,7 @@ class Productos {
 
 // En algún lado debo preguntarle al usuario donde debo ingresar los productos
 
-/*----------Clase con array vacío para almacenar productos----------*/
+/*---------- Clase con array vacío para almacenar productos ----------*/
 class Carrito {
     constructor(){
         this.productos = [];
@@ -25,21 +31,25 @@ class Carrito {
 
 
 
-/*----------Función que permite agregar productos al carrito----------*/
+/*---------- Función que permite agregar productos al carrito ----------*/
 function agregarProductoCarro () {
     if (Productos.venta == true) {
 
     }
 }
 
-/*----------Función que permite calcular el total de toda la compra----------*/
+/*---------- Función que permite calcular el total de toda la compra ----------*/
 function calcularTotalCompra (){
 
 }
 
 
-/*----------Función que permite mostrar los detalles de la compra----------*/
-
+/*---------- Función que permite mostrar los detalles de la compra ----------*/
 function mostrarDetallesCompra () {
+
+}
+
+/*---------- Función que permite finalizar la compra ----------*/
+function finalizarCompra (){
 
 }
